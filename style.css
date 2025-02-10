@@ -64,7 +64,7 @@ button:hover {
 }
 
 .menu {
-    width: 55%;
+    width: 45%;
     display: flex;
     padding-top: 600px;
     justify-content: right;
@@ -99,7 +99,7 @@ button:hover {
 
 .imagem-copo {
     width: 265px;
-    padding-top: 250px;
+    padding-top: 230px;
     float: right;
 }
    
