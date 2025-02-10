@@ -13,14 +13,16 @@ body {
 
 .conteudo {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  
 }
 
 .textos {
-    width: 600px;
+    width: 40%;
+    float: left;
+    padding-top: 40px;
 }
+
+
 
 h2 {
     color: #333;
@@ -53,17 +55,22 @@ button:hover {
     background-color: #01bc6e;
 }
 
+
 .imagem {
-    width: 600px;
+    width: 30%;
     display: flex;
     justify-content: flex-end;
-    margin-top: 250px;
+    float: right;
 }
 
 .menu {
+    width: 55%;
     display: flex;
-    justify-content: center;
+    padding-top: 600px;
+    justify-content: right;
+    position: absolute;
 }
+
 
 .botao-menu {
     width: 60px;
@@ -92,8 +99,14 @@ button:hover {
 
 .imagem-copo {
     width: 265px;
+    padding-top: 250px;
+    float: right;
 }
-
+   
 .imagem-copo:hover {
-    width: 400px;
+    width: 450px;
+    padding-top: 0px;
+    /* z-index: 1000; */
+    position: relative !important;
+    z-index: 1000;
 }
